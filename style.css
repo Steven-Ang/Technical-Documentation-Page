@@ -2,3 +2,15 @@
   box-sizing: border-box;
   outline: none !important;
 }
+
+code {
+  display: block;
+  white-space: pre-wrap;
+  background-color: rgba(238,238,238, .4);
+  padding: 0 15px;
+  color: #000;
+}
+
+ul, ol {
+  padding-left: 18px;
+}
