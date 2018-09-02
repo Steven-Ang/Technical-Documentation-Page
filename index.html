@@ -10,11 +10,14 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="col-md-2">
           <nav id="navbar">
-            <header>
+            <div id="nav-title-container">
+              <h1 class="nav-title">Markdown </h1>
+            </div>
+            <header id="nav-link-container">
               <a href="#introduction" class="nav-link">Introduction</a>
               <a href="#headers" class="nav-link">Headers</a>
               <a href="#emphasis" class="nav-link">Emphasis</a>
@@ -27,7 +30,7 @@
           <main id="main-doc">
             <section id="introduction" class="main-section">
               <header>
-                <h1>Introduction</h1>
+                <h1 class="title">Introduction</h1>
                 <p>This is intended as a quick reference and showcase. For more complete info, see John Gruber's original spec and the Github-flavored Markdown info page.</p>
                 <p>Note that there is also a Cheatsheet specific to Markdown Here if that's what you're looking for. You can also check out more Markdown tools.</p>
               </header>
@@ -35,7 +38,7 @@
           </main>
           <section id="headers" class="main-section">
             <header>
-              <h1>Headers</h1><hr>
+              <h1 class="title">Headers</h1><hr>
               <code>
 # H1
 ## H2
@@ -67,7 +70,7 @@ Alt-H2
           </section>
           <section id="emphasis" class="main-section">
             <header>
-              <h1>Emphasis</h1><hr>
+              <h1 class="title">Emphasis</h1><hr>
               <code>
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -95,7 +98,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
           </section>
           <section id="lists" class="main-section">
             <header>
-              <h1>Lists</h1><hr>
+              <h1 class="title">Lists</h1><hr>
               <p>(In this example, leading and trailing spaces are shown with with dots: ⋅)</p>
               <code>
 1. First ordered list item
@@ -146,7 +149,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
           </section>
           <section id="links" class="main-section">
             <header>
-              <h1>Links</h1><hr>
+              <h1 class="title">Links</h1><hr>
               <p>There are two ways to create links.</p>
               <code>
 [I'm an inline-style link](https://www.google.com)
